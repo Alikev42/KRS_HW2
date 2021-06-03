@@ -28,46 +28,13 @@ export default function App() {
         <View style={styles.box2}>Child2</View>
         <View style={styles.box2}>Child3</View>
         <StatusBar style="auto" />
-      </View>
+      </View>  
       <View style={styles.rowbox}>Row
-        <View style={styles.box2}>Child4</View>
-        <View style={styles.box2}>Child5</View>
-        <View style={styles.box2}>Child6</View>
+        <View style={styles.box4}>Child4</View>
+        <View style={styles.box4}>Child5</View>
+        <View style={styles.box4}>Child6</View>
         //<StatusBar style="auto" />
       </View>
     </View>
   );
 }
-/*
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#f0f1f2',
-    alignItems: "center", // Vertical
-    justifyContent: "center",  // Horizontal
-    borderWidth: 2,
-    borderStyle: "dashed",
-    borderColor: "#000000",
-    ...Platform.select({
-      ios: {paddingTop: 20},
-      android: {paddingTop: StatusBar.currentHeight}
-    })
-  },
-
-  box: {
-    width: 100,
-    height: 100,
-    justifyContent: "center",
-    alignItems: "center",
-    backgroundColor: "#dddddd",
-    borderWidth: 1,
-    borderStyle: "solid",
-    borderColor: "black"
-  }, 
-
-  boxText: {
-    color: "black",
-    fontWeight: "bold"
-  }
-});
-*/

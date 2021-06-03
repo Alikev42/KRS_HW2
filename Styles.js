@@ -16,7 +16,7 @@ export default StyleSheet.create({
         android: {paddingTop: StatusBar.currentHeight}
       })
     },
-
+    
     colbox: {
       width: 200,
       height: 400,
@@ -44,8 +44,9 @@ export default StyleSheet.create({
     rowbox: {
         width: 400,
         height: 200,
+        flexDirection: "row",
         justifyContent: "center",
-        alignItems: "flex-start",
+        alignItems: "center",
         backgroundColor: "#d1d2d3",
         margin: 10,
         borderWidth: 3,
@@ -54,7 +55,7 @@ export default StyleSheet.create({
     },
 
     box4: {
-        width: 300,
+        width: 100,
         height: 100,
         justifyContent: "center",
         alignItems: "center",
@@ -71,31 +72,3 @@ export default StyleSheet.create({
     }
   });
 
-  /*
-  export default StyleSheet.create({
-  container: {
-    flex: 1,
-    flexDirection: "row",
-    flexWrap: "wrap",
-    backgroundColor: "ghostwhite",
-    alignItems: 'center'/*,
-    justifyContent: 'center',*
-},
-
-box: {
-  height: 100,
-  width: 100,
-  justifyContent: "center",
-  alignItems: "center",
-  backgroundColor: "lightgray",
-  borderWidth: 1,
-  borderStyle: "dashed",
-  borderColor: "darkslategray",
-  margin: 10
-},
-
-boxText: {
-  color: "darkslategray",
-  fontWeight: "bold"
-}
-});*/
