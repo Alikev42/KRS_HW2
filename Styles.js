@@ -4,10 +4,9 @@ export default StyleSheet.create({
     container: {
       flex: 1,
       display: "flex",
-      flexDirection: "row",
-      //height: "420",
+      flexDirection: "column",
       backgroundColor: '#8800ff',
-      alignItems: "center",      // Vertical
+      alignItems: "flex-start",      // Vertical
       justifyContent: "space-around",  // Horizontal
       borderWidth: 10,
       borderStyle: "solid",
@@ -20,9 +19,9 @@ export default StyleSheet.create({
 
     colbox: {
       width: 400,
-      height: 500,
+      height: 400,
       justifyContent: "center",
-      alignItems: "center",
+      alignItems: "Center",
       backgroundColor: "#d1d2d3",
       margin: 10,
       borderWidth: 5,
@@ -46,7 +45,7 @@ export default StyleSheet.create({
         width: 1000,
         height: 200,
         justifyContent: "center",
-        alignItems: "center",
+        alignItems: "flex-start",
         backgroundColor: "#d1d2d3",
         margin: 10,
         borderWidth: 3,
