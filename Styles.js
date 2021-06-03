@@ -18,7 +18,7 @@ export default StyleSheet.create({
     },
 
     colbox: {
-      width: 400,
+      width: 200,
       height: 400,
       justifyContent: "center",
       alignItems: "Center",
@@ -30,7 +30,7 @@ export default StyleSheet.create({
     }, 
 
     box2: {
-        width: 300,
+        width: 100,
         height: 100,
         justifyContent: "center",
         alignItems: "center",
@@ -42,7 +42,7 @@ export default StyleSheet.create({
     },
   
     rowbox: {
-        width: 1000,
+        width: 400,
         height: 200,
         justifyContent: "center",
         alignItems: "flex-start",
