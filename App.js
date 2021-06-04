@@ -1,4 +1,6 @@
 /*
+Kevin R. Salger
+IS657, Summer 2021
 Homework 2
 
 Please submit a text file “hw2.txt” that has two links:  
@@ -29,12 +31,12 @@ export default function App() {
         <View style={styles.box2}>Child3</View>
         <StatusBar style="auto" />
       </View>  
-      <View style={styles.rowbox}>Row
-        <View></View>
+      <View style={styles.rowbox1}>
+        <View style={styles.rowbox2}>Row</View>
         <View style={styles.box4}>Child4</View>
         <View style={styles.box4}>Child5</View>
         <View style={styles.box4}>Child6</View>
-        //<StatusBar style="auto" />
+        <StatusBar style="auto" />
       </View>
     </View>
   );

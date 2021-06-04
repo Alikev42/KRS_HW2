@@ -1,3 +1,6 @@
+/*  Kevin R. Salger
+    IS657, Summer 2021
+    Homework 2 */
 import {Platform, StyleSheet, StatusBar} from "react-native";
 
 export default StyleSheet.create({
@@ -20,8 +23,8 @@ export default StyleSheet.create({
     colbox: {
       width: 200,
       height: 400,
-      justifyContent: "center",
-      alignItems: "Center",
+      justifyContent: "stretch",
+      alignItems: "center",
       backgroundColor: "#d1d2d3",
       margin: 10,
       borderWidth: 5,
@@ -41,18 +44,31 @@ export default StyleSheet.create({
         borderColor: "#000000"
     },
   
-    rowbox: {
-        width: 400,
+    rowbox1: {
+        //width: 400,
         height: 200,
         flexDirection: "row",
-        justifyContent: "center",
+        justifyContent: "stretch",
         alignItems: "center",
         backgroundColor: "#d1d2d3",
         margin: 10,
-        borderWidth: 3,
+        borderWidth: 5,
         borderStyle: "solid",
         borderColor: "#000000"
     },
+    
+    rowbox2: {
+      //width: 400,
+      height: 170,
+      flexDirection: "column",
+      justifyContent: "stretch",
+      alignItems: "flex-start",
+      backgroundColor: "#d1d2d3",
+      margin: 10,
+      borderWidth: 0,
+      borderStyle: "solid",
+      borderColor: "#000000"
+  },
 
     box4: {
         width: 100,
