@@ -47,9 +47,9 @@ export default StyleSheet.create({
     rowbox1: {
         //width: 400,
         height: 200,
-        flexDirection: "row",
+        flexDirection: "column",
         justifyContent: "stretch",
-        alignItems: "center",
+        alignItems: "flex-start",
         backgroundColor: "#d1d2d3",
         margin: 10,
         borderWidth: 5,
@@ -59,16 +59,29 @@ export default StyleSheet.create({
     
     rowbox2: {
       //width: 400,
-      height: 170,
+      height: 50,
       flexDirection: "column",
       justifyContent: "stretch",
-      alignItems: "flex-start",
+      alignItems: "center",
       backgroundColor: "#d1d2d3",
       margin: 10,
       borderWidth: 0,
       borderStyle: "solid",
       borderColor: "#000000"
-  },
+    },
+
+    rowbox3: {
+      //width: 400,
+      height: 50,
+      flexDirection: "row",
+      justifyContent: "stretch",
+      alignItems: "center",
+      backgroundColor: "#d1d2d3",
+      margin: 10,
+      borderWidth: 0,
+      borderStyle: "solid",
+      borderColor: "#000000"
+    },
 
     box4: {
         width: 100,

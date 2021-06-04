@@ -33,10 +33,12 @@ export default function App() {
       </View>  
       <View style={styles.rowbox1}>
         <View style={styles.rowbox2}>Row</View>
-        <View style={styles.box4}>Child4</View>
-        <View style={styles.box4}>Child5</View>
-        <View style={styles.box4}>Child6</View>
-        <StatusBar style="auto" />
+        <View style={styles.rowbox3}>
+          <View style={styles.box4}>Child4</View>
+          <View style={styles.box4}>Child5</View>
+          <View style={styles.box4}>Child6</View>
+          <StatusBar style="auto" />
+        </View>
       </View>
     </View>
   );
