@@ -30,6 +30,7 @@ export default function App() {
         <StatusBar style="auto" />
       </View>  
       <View style={styles.rowbox}>Row
+        <View></View>
         <View style={styles.box4}>Child4</View>
         <View style={styles.box4}>Child5</View>
         <View style={styles.box4}>Child6</View>
