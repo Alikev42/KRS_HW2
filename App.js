@@ -34,7 +34,7 @@ export default function App() {
       <View style={styles.rowbox1}>
         <View style={styles.rowbox2}>Row</View>
         <View style={styles.rowbox3}>
-          <View style={styles.box4}><Text>Child4</Text></View>
+          <View style={styles.box4}><styles.boxText>Child4</Text></View>
           <View style={styles.box4}>Child5</View>
           <View style={styles.box4}>Child6</View>
           <StatusBar style="auto" />
