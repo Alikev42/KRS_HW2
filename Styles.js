@@ -26,7 +26,7 @@ export default StyleSheet.create({
       justifyContent: "stretch",
       alignItems: "center",
       backgroundColor: "#d1d2d3",
-      margin: 10,
+      margin: 5,
       borderWidth: 5,
       borderStyle: "solid",
       borderColor: "#000000"  // Black
@@ -38,7 +38,7 @@ export default StyleSheet.create({
         justifyContent: "center",
         alignItems: "center",
         backgroundColor: "#adadad",
-        margin: 10,
+        margin: 5,
         borderWidth: 3,
         borderStyle: "solid",
         borderColor: "#000000"
@@ -51,7 +51,7 @@ export default StyleSheet.create({
         justifyContent: "stretch",
         alignItems: "flex-start",
         backgroundColor: "#d1d2d3",
-        margin: 10,
+        margin: 5,
         borderWidth: 5,
         borderStyle: "solid",
         borderColor: "#000000"
@@ -62,9 +62,9 @@ export default StyleSheet.create({
       height: 50,
       flexDirection: "column",
       justifyContent: "stretch",
-      alignItems: "center",
+      alignSelf: "center",
       backgroundColor: "#d1d2d3",
-      margin: 10,
+      margin: 5,
       borderWidth: 0,
       borderStyle: "solid",
       borderColor: "#000000"
@@ -77,7 +77,7 @@ export default StyleSheet.create({
       justifyContent: "stretch",
       alignItems: "center",
       backgroundColor: "#d1d2d3",
-      margin: 10,
+      margin: 5,
       borderWidth: 0,
       borderStyle: "solid",
       borderColor: "#000000"
@@ -89,7 +89,7 @@ export default StyleSheet.create({
         justifyContent: "center",
         alignItems: "center",
         backgroundColor: "#adadad",
-        margin: 10,
+        margin: 5,
         borderWidth: 3,
         borderStyle: "solid",
         borderColor: "#000000"
