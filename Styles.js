@@ -97,7 +97,7 @@ export default StyleSheet.create({
     },
 
     boxText: {
-      color: "black",
+      color: "red",
       fontWeight: "bold"
     }
   });
