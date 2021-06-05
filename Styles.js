@@ -62,7 +62,7 @@ export default StyleSheet.create({
       height: 50,
       flexDirection: "column",
       justifyContent: "stretch",
-      alignSelf: "center",
+      alignSelf: "flex-start",
       backgroundColor: "#d1d2d3",
       margin: 5,
       borderWidth: 0,
