@@ -16,9 +16,9 @@ sure that the web version has the correct layout styles. The colors don’t matt
 */
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { Platform, StyleSheet, Text, View } from 'react-native';
+import { Text, View } from 'react-native';
 import styles from "./Styles.js";
-// import box from "./box.js";
+// import box from "./Box.js";
 
 export default function App() {
   return (
@@ -34,7 +34,7 @@ export default function App() {
       <View style={styles.rowbox1}>
         <View style={styles.rowbox2}>Row</View>
         <View style={styles.rowbox3}>
-          <View style={styles.box4}><View style={styles.boxText}>Child4</styles.boxText></View>
+          <View style={styles.box4}><Text style={styles.boxText}>Child4</Text></View>
           <View style={styles.box4}>Child5</View>
           <View style={styles.box4}>Child6</View>
           <StatusBar style="auto" />
