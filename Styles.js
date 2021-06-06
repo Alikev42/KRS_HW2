@@ -23,9 +23,9 @@ export default StyleSheet.create({
   colbox: { 
     width: 200,
     //height: 400,
-    flexDirection: "row",
-    justifyContent: "stretch",
-    alignItems: "center",
+    flexDirection: "column",
+    justifyContent: "stretch",   // Vertical placement
+    alignItems: "center",   // Horizontal placement
     backgroundColor: "#d1d2d3",
     margin: 5,
     borderWidth: 5,
@@ -36,7 +36,7 @@ export default StyleSheet.create({
   box2: {
       width: 75,
       height: 75,
-      justifyContent: "center",
+      justifyContent: "flex-start",
       alignItems: "center",
       backgroundColor: "#adadad",
       margin: 5,
