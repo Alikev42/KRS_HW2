@@ -77,7 +77,7 @@ export default StyleSheet.create({
     //flexDirection: "column",
     flexDirection: "row",
     justifyContent: "center",
-    alignItems: "Flex-end",
+    alignItems: "center",
     backgroundColor: "#d1d2d3",
     margin: 5,
     borderWidth: 0,
