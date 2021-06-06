@@ -99,7 +99,8 @@ export default StyleSheet.create({
 
   boxText: {
     color: "#010101",
-    fontWeight: "bold"
+    fontWeight: "bold",
+    fontSize: 20
   }
 });
 
