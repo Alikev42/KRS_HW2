@@ -33,8 +33,8 @@ export default StyleSheet.create({
   }, 
 
   box2: {
-      width: 100,
-      height: 100,
+      width: 75,
+      height: 75,
       justifyContent: "center",
       alignItems: "center",
       backgroundColor: "#adadad",
@@ -84,9 +84,9 @@ export default StyleSheet.create({
   },
 
   box4: {
-      width: 50,
+      width: 75,
       // flexDirection: "column",
-      height: 100,
+      height: 75,
       justifyContent: "center",
       alignItems: "flex-start",
       backgroundColor: "#adadad",
