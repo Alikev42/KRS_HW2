@@ -73,8 +73,8 @@ export default StyleSheet.create({
   rowbox3: {
     width: 200,
     height: 50,
-    //flexDirection: "row",
-    justifyContent: "stretch",
+    flexDirection: "row",
+    justifyContent: "flex-start",
     alignItems: "center",
     backgroundColor: "#d1d2d3",
     margin: 5,
