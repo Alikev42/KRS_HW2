@@ -23,9 +23,9 @@ export default StyleSheet.create({
   colbox: { 
     width: 200,
     //height: 400,
-    flexDirection: "column",
+    flexDirection: "column",     // Flexible height
     justifyContent: "stretch",   // Vertical placement
-    alignItems: "center",   // Horizontal placement
+    alignItems: "center",        // Horizontal placement
     backgroundColor: "#d1d2d3",
     margin: 5,
     borderWidth: 5,
@@ -36,8 +36,8 @@ export default StyleSheet.create({
   box2: {
       width: 75,
       height: 75,
-      justifyContent: "flex-start",
-      alignItems: "center",
+      justifyContent: "flex-start",  // Vertical placement
+      alignItems: "center",          // Horizontal placement
       backgroundColor: "#adadad",
       margin: 5,
       borderWidth: 3,
@@ -48,9 +48,9 @@ export default StyleSheet.create({
   rowbox1: {
       //width: 400,
       height: 200,
-      flexDirection: "column",
-      justifyContent: "Flex-start",
-      alignItems: "flex-start",
+      flexDirection: "row",         // Flexible width    
+      justifyContent: "Flex-start", // Vertical placement
+      alignItems: "flex-start",     // Horizontal placement
       backgroundColor: "#d1d2d3",
       margin: 5,
       borderWidth: 5,
@@ -61,9 +61,9 @@ export default StyleSheet.create({
   rowbox2: {
     //width: 400,
     height: 50,
-    flexDirection: "column",
-    justifyContent: "stretch",
-    alignSelf: "stretch",
+    flexDirection: "row",    // Flexible width
+    justifyContent: "stretch",  // Vertical placement
+    alignSelf: "stretch",       // Horizontal placement
     backgroundColor: "#d1d2d3",
     margin: 5,
     borderWidth: 0,
@@ -72,8 +72,9 @@ export default StyleSheet.create({
   },
   //  Internal row containing only the Child4-6 boxes
   rowbox3: {
-    width: 200,
+    //width: 200,
     height: 50,
+    flexDirection: "column",
     flexDirection: "row",
     justifyContent: "flex-start",
     alignItems: "center",
@@ -86,10 +87,9 @@ export default StyleSheet.create({
   //  Defines boxes containing Child4, Child5, and Child6
   box4: {
       width: 75,
-      // flexDirection: "column",
       height: 75,
       justifyContent: "center",
-      alignItems: "flex-start",
+      alignItems: "center",
       backgroundColor: "#adadad",
       margin: 5,
       borderWidth: 3,
