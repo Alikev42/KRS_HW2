@@ -48,7 +48,7 @@ export default StyleSheet.create({
   rowbox1: {
       //width: 400,
       height: 200,
-      flexDirection: "row",
+      flexDirection: "column",
       justifyContent: "Flex-start",
       alignItems: "flex-start",
       backgroundColor: "#d1d2d3",
