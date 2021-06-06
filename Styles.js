@@ -24,7 +24,7 @@ export default StyleSheet.create({
     width: 200,
     height: 400,
     justifyContent: "stretch",
-    alignItems: "center",
+    alignItems: "flex-start",
     backgroundColor: "#d1d2d3",
     margin: 5,
     borderWidth: 5,
