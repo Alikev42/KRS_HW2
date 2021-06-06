@@ -32,11 +32,11 @@ export default function App() {
         <StatusBar style="auto" />
       </View>  
       <View style={styles.rowbox1}>
-        <View style={styles.rowbox2}>Row</View>
+        <View style={styles.rowbox2}><Text style={styles.boxText}>Row</Text></View>
         <View style={styles.rowbox3}>
           <View style={styles.box4}><Text style={styles.boxText}>Child4</Text></View>
-          <View style={styles.box4}>Child5</View>
-          <View style={styles.box4}>Child6</View>
+          <View style={styles.box4}><Text style={styles.boxText}>Child5</Text></View>
+          <View style={styles.box4}><Text style={styles.boxText}>Child6</Text></View>
           <StatusBar style="auto" />
         </View>
       </View>
