@@ -25,10 +25,10 @@ export default function App() {
     /* Container level, then two rows.  Inside the first row is the column boxes. 
       Inside the second row is the row boxes.  */
     <View style={styles.container}>
-      <View style={styles.colbox}>Column
-        <View style={styles.box2}>Child1</View>
-        <View style={styles.box2}>Child2</View>
-        <View style={styles.box2}>Child3</View>
+      <View style={styles.colbox}><Text style={styles.boxText}>Column</Text>
+        <View style={styles.box2}><Text style={styles.boxText}>Child1</Text></View>
+        <View style={styles.box2}><Text style={styles.boxText}>Child2</Text></View>
+        <View style={styles.box2}><Text style={styles.boxText}>Child3</Text></View>
         <StatusBar style="auto" />
       </View>  
       <View style={styles.rowbox1}>
