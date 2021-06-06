@@ -49,7 +49,7 @@ export default StyleSheet.create({
       //width: 400,
       height: 200,
       flexDirection: "row",         // Flexible width    
-      justifyContent: "Flex-start", // Vertical placement
+      justifyContent: "center", // Vertical placement
       alignItems: "flex-start",     // Horizontal placement
       backgroundColor: "#d1d2d3",
       margin: 5,
