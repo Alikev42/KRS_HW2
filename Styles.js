@@ -87,7 +87,7 @@ export default StyleSheet.create({
       width: 50,
       // flexDirection: "column",
       height: 100,
-      justifyContent: "center",
+      justifyContent: "flex-start",
       alignItems: "center",
       backgroundColor: "#adadad",
       margin: 5,
