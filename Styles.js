@@ -7,10 +7,10 @@ export default StyleSheet.create({
   container: {
     flex: 1,
     display: "flex",
-    flexDirection: "column",
+    flexDirection: "column",          // Flexible height
     backgroundColor: '#8800ff',
-    alignItems: "flex-start",      // Vertical
-    justifyContent: "space-around",  // Horizontal
+    alignItems: "flex-start",        // Horizontal placement
+    justifyContent: "space-around",  // Vertical placement
     borderWidth: 10,
     borderStyle: "solid",
     borderColor: "#ff0000",
@@ -36,7 +36,7 @@ export default StyleSheet.create({
   box2: {
       width: 75,
       height: 75,
-      justifyContent: "flex-start",  // Vertical placement
+      justifyContent: "center",  // Vertical placement
       alignItems: "center",          // Horizontal placement
       backgroundColor: "#adadad",
       margin: 5,
@@ -76,8 +76,8 @@ export default StyleSheet.create({
     height: 50,
     flexDirection: "column",
     flexDirection: "row",
-    justifyContent: "flex-start",
-    alignItems: "center",
+    justifyContent: "center",
+    alignItems: "Flex-start",
     backgroundColor: "#d1d2d3",
     margin: 5,
     borderWidth: 0,
