@@ -84,8 +84,8 @@ export default StyleSheet.create({
   },
 
   box4: {
-      // width: 100,
-      flexDirection: "column",
+      width: 50,
+      // flexDirection: "column",
       height: 100,
       justifyContent: "center",
       alignItems: "center",
