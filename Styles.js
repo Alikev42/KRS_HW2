@@ -76,7 +76,7 @@ export default StyleSheet.create({
     height: 50,
     //flexDirection: "column",
     flexDirection: "row",
-    justifyContent: "center",
+    justifyContent: "flex-end",
     alignItems: "center",
     backgroundColor: "#d1d2d3",
     margin: 5,
